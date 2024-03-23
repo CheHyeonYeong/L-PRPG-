@@ -1,4 +1,4 @@
-package charactor;
+package Charactor;
 
 public class Player extends Charactor{
     public Player (String neo){
