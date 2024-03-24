@@ -1,18 +1,16 @@
 package charactor;
 
 public class Charactor {
-
-   public String name;
+    public int MAX_HP=150;
+    public String name;
+    public int ad;
+    public int hp;
 
    public Charactor(String name){
        this.name = name;
        this.ad = ad;
        this.hp = hp;
    }
-
-   public int ad;
-
-   public int hp;
 
    public int atk(int ad){
        return ad;
@@ -22,7 +20,6 @@ public class Charactor {
        hp -= ad;
        return hp;
    }
-
 
     public int getAd() {
         return ad;

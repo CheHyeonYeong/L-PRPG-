@@ -1,9 +1,9 @@
 
-package Battle;
+package battle;
 
 
-import Charactor.player;
-import Charactor.Monster;
+import charactor.Player;
+import charactor.Monster;
 
 import java.util.Random;
 
@@ -19,7 +19,7 @@ public class Battle {
     }
 
     // 싸움 진행 메서드
-    public boolean battle() {
+    public Player battle() {
         boolean playerTurn = true; // 플레이어 턴 여부
 
         while (player.getHp() > 0 && monster.getHp() > 0) { // 둘 중 하나의 HP가 0이 될 때까지 반복
@@ -50,7 +50,7 @@ public class Battle {
             }
         }
 
-        // 싸움 결과 반환
-        return player.getHp() > 0; // 플레이어 승리 여부 반환
+        // 배틀 이후 결과 값 반환
+        return player;
     }
 }
