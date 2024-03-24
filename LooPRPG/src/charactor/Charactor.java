@@ -16,11 +16,13 @@ public class Charactor {
        return ad;
    }
 
-   public int hit(int hp){
-       hp -= ad;
+   public int hit(int damage) {
+       hp -= damage;
+       if (hp < 0) {
+           hp = 0; 
+       }
        return hp;
    }
-
     public int getAd() {
         return ad;
     }
