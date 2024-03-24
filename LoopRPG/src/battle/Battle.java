@@ -1,9 +1,9 @@
 
-package Battle;
+package battle;
 
 
-import Charactor.player;
-import Charactor.Monster;
+import charactor.Player;
+import charactor.Monster;
 
 import java.util.Random;
 
