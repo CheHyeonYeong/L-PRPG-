@@ -1,5 +1,6 @@
 import charactor.Player;
 import event.Event;
+
 import java.util.Scanner;
 
 public class Main {
@@ -31,9 +32,10 @@ public class Main {
 				System.out.print("계속 진행하시겠습니까? (y/n): ");
 				String choice = scanner.nextLine();
 
-				if (choice.equalsIgnoreCase("y")) {
+				// 사용자 입력을 확인하여 계속 진행 또는 게임 종료를 결정합니다.
+				if (choice.equalsIgnoreCase("y") || choice.equals("ㅛ")) {
 					System.out.println("다음 맵으로 이동합니다.");
-				} else {
+				} else if (choice.equalsIgnoreCase("n") || choice.equals("ㅜ")) {
 					System.out.println("게임을 종료합니다.");
 					gameOver = true;
 				}
