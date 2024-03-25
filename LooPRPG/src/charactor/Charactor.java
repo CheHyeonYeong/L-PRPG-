@@ -1,7 +1,7 @@
 package charactor;
 
 public class Charactor {
-    public int MAX_HP=150;
+    public int MAX_HP=200;
     public String name;
     public int ad;
     public int hp;
