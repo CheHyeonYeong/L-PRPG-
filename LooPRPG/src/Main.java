@@ -14,7 +14,7 @@ public class Main {
 
 		// 입력받은 이름으로 Player 객체를 생성합니다.
 		Player player = new Player(playerName);
-		// 생성한 Player 객체를 이용하여 Event 객체를 생성합니다.
+		// 생성한 Player 객체를 이용하여 Event 객체를 생성합니다
 		Event event = new Event(player);
 
 		// 게임이 끝났는지 여부를 판단하기 위한 변수를 선언하고, 초기값은 false로 설정합니다.
