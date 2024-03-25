@@ -8,8 +8,8 @@ public class Charactor {
 
    public Charactor(String name){
        this.name = name;
-       this.ad = ad;
-       this.hp = hp;
+       this.ad = 80;
+       this.hp = MAX_HP;
    }
 
    public int atk(int ad){

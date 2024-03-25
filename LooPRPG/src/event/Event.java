@@ -42,7 +42,7 @@ public class Event {
 
     private void monsterGrow() {
         //다음 몬스터의 레벨 증가
-        monster.hp += 10;
+        monster.hp = monster.MAX_HP+100;
         monster.ad += 10;
     }
     void recover() {
@@ -59,6 +59,7 @@ public class Event {
     }
     boolean battleEvent() {
         Battle battleEvent = new Battle(player, monster);
+        System.out.println("battle 불러오기");
         player = battleEvent.battle();
 
         if (player.getHp() > 0) {
@@ -69,6 +70,7 @@ public class Event {
             System.out.println("패배하셨습니다");
             System.out.println("게임을 종료합니다.");
         }
+        monsterGrow();
         return player.getHp() > 0; // 플레이어 승리 여부 반환
     }
 
