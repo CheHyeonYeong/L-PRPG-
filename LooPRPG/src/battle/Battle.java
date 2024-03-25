@@ -18,7 +18,7 @@ public class Battle {
 
     // 싸움 진행 메서드
     public Player battle() {
-        boolean playerTurn = true; // 플레이어 턴 여부
+        boolean playerTurn = false; // 플레이어 턴 여부
 
         while (player.getHp() > 0 && monster.getHp() > 0 && !isPlayerWin) { // 둘 중 하나의 HP가 0이 되거나 승리 조건이 만족되면 반복 종료
             if (playerTurn) {
