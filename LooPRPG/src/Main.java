@@ -20,7 +20,7 @@ public class Main {
 		// 게임이 끝났는지 여부를 판단하기 위한 변수를 선언하고, 초기값은 false로 설정합니다.
 		boolean gameOver = false;
 
-		// gameOver가 true가 될 때까지 게임을 계속 진행합니다.
+		// gameOver가 true가 될 때까지 게임을 계속 진행합니다
 		while (!gameOver) {
 
 			// 이동 이벤트를 처리합니다.
