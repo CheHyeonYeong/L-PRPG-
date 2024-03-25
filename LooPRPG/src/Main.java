@@ -12,7 +12,7 @@ public class Main {
 		// 사용자로부터 이름을 입력받아 문자열 변수에 저장합니다.
 		String playerName = scanner.nextLine();
 
-		// 입력받은 이름으로 Player 객체를 생성합니다.
+		// 입력받은 이름으로 Player 객체를 생성합니다
 		Player player = new Player(playerName);
 		// 생성한 Player 객체를 이용하여 Event 객체를 생성합니다
 		Event event = new Event(player);
