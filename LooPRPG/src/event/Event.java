@@ -12,7 +12,7 @@ public class Event {
     Monster monster = new Monster("몹");
     private Random randomEvent = new Random();
     // 승리 여부 판별하는 flag
-    public boolean win = false;
+    public boolean win = true;
 
     public Event(Player player) {
         this.player = player;
@@ -21,8 +21,10 @@ public class Event {
     //main에서 불러올 중심 이벤트
     public void moveingEvent() {
         int event = randomEvent.nextInt(2);
+        System.out.println("이동하셨습니다.");
         switch (event) {
             case 1:
+                System.out.println("배틀이 시작됩니다.");
                 battleEvent();
                 break;
             case 2:
@@ -58,10 +60,9 @@ public class Event {
     boolean battleEvent() {
         Battle battleEvent = new Battle(player, monster);
         player = battleEvent.battle();
-        if ( player.getHp() > 0) {
+
+        if (player.getHp() > 0) {
             win = true;
-            System.out.println("승리하셨습니다");
-            recover();
             eventBox();
         } else {
             win = false;
@@ -73,6 +74,8 @@ public class Event {
 
     public void eventBox() {
         int event = randomEvent.nextInt(3);
+
+        System.out.println("승리하셨습니다");
         switch (event) {
             case 1:
                 recover(); // 회복 이벤트

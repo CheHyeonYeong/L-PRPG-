@@ -7,6 +7,7 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("게임을 시작합니다.");
 		System.out.print("플레이어 이름을 입력하세요: ");
+
 		// 사용자로부터 이름을 입력받아 문자열 변수에 저장합니다.
 		String playerName = scanner.nextLine();
 
@@ -20,6 +21,7 @@ public class Main {
 
 		// gameOver가 true가 될 때까지 게임을 계속 진행합니다.
 		while (!gameOver) {
+
 			// 이동 이벤트를 처리합니다.
 			event.moveingEvent();
 
