@@ -4,8 +4,8 @@ public class Player extends Charactor{
     public int MAX_HP=150;
     public Player (String neo){
         super(neo);
-        this.hp = 125;
-        this.ad = 35;
+        this.hp = 1000;
+        this.ad = 100;
     }
 
     @Override
