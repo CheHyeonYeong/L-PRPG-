@@ -6,11 +6,6 @@
 
 개발기간  `**2024.03.20 ~2024.03.27 (1주)**`
 
-**🔗  Links**
-
-https://github.com/CheHyeonYeong/L-PRPG-.git
-
-[LoopRPG](https://www.notion.so/LoopRPG-d2241ce47ec84a2888fd0f4f6a76618f?pvs=21) 
 
 ## 📜 서비스 내용
 
