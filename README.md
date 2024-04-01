@@ -75,7 +75,11 @@ JAVA, Git, GitHub, Notion, IntelliJ
 시퀀스 다이어그램 - 채현영 제작
 
 
-클래스 다이어그램 - 김태훈
-![KakaoTalk_Photo_2024-04-01-09-29-02](https://github.com/CheHyeonYeong/LooPRPG/assets/162404075/83f15a94-5796-451b-b087-223ccfeaeb5b)
 
+
+
+![LoopRpg ClassDiagram](https://github.com/CheHyeonYeong/LooPRPG/assets/162404075/66dbbe79-23e7-4f3b-a36e-19a0fd64e1a6)
+
+
+클래스 다이어그램 - 김태훈 제작
 
