@@ -73,4 +73,5 @@ JAVA, Git, GitHub, Notion, IntelliJ
 
 시퀀스 다이어그램 - 채현영 제작
 
-@TAI HOON 3월 29일
+클래스 다이어그램 - 김태훈
+(https://github.com/CheHyeonYeong/LooPRPG/assets/162404075/5d9f9f30-1819-4f05-a3d9-0464bca03fed)
