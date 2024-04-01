@@ -62,7 +62,7 @@ JAVA, Git, GitHub, Notion, IntelliJ
 # 서비스 화면
 
 ---
-![Uploading 서비스 화면.gif…]()
+![서비스 화면](https://github.com/CheHyeonYeong/LooPRPG/assets/62824602/9c9684a7-4761-46b5-8632-91847e44dcd9)
 
 
 # 자료
