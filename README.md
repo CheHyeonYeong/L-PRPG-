@@ -62,16 +62,18 @@ JAVA, Git, GitHub, Notion, IntelliJ
 # 서비스 화면
 
 ---
+![Uploading 서비스 화면.gif…]()
 
-[서비스 화면.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/65d47488-3ffd-440e-b655-cb7516b09d13/ecd7301c-2640-4a71-a63b-5c592d4d0566/%EC%84%9C%EB%B9%84%EC%8A%A4_%ED%99%94%EB%A9%B4.mp4)
 
 # 자료
 
 ---
 
-![시퀀스 다이어그램 - 채현영 제작](https://prod-files-secure.s3.us-west-2.amazonaws.com/65d47488-3ffd-440e-b655-cb7516b09d13/2cc398b8-3b9d-4e0a-97b4-c68592b54cd9/LoopRPG_SequenceDiagram.png)
+
+![LoopRPG_SequenceDiagram](https://github.com/CheHyeonYeong/LooPRPG/assets/62824602/a9deb9b0-48e2-44dd-9a79-d244a309398f)
 
 시퀀스 다이어그램 - 채현영 제작
 
 클래스 다이어그램 - 김태훈
-(https://github.com/CheHyeonYeong/LooPRPG/assets/162404075/5d9f9f30-1819-4f05-a3d9-0464bca03fed)
+
+
